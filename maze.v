@@ -33,9 +33,9 @@ module maze(
 	input clk,
 	input [maze_width - 1:0] starting_col, starting_row, 	// indicii punctului de start
 	input maze_in, 			// ofera informa?ii despre punctul de coordonate [row, col]
-	output reg[maze_width - 1:0] row, col,	 		// selecteaza un r‚nd si o coloana din labirint
-	output reg maze_oe,			// output enable (activeaza citirea din labirint la r‚ndul ?i coloana date) - semnal sincron	
-	output reg maze_we, 			// write enable (activeaza scrierea Ón labirint la r‚ndul ?i coloana date) - semnal sincron
+	output reg[maze_width - 1:0] row, col,	 		// selecteaza un r√¢nd si o coloana din labirint
+	output reg maze_oe,			// output enable (activeaza citirea din labirint la r√¢ndul ?i coloana date) - semnal sincron	
+	output reg maze_we, 			// write enable (activeaza scrierea √Æn labirint la r√¢ndul ?i coloana date) - semnal sincron
 	output reg done);		 	// ie?irea din labirint a fost gasita; semnalul ramane activ 
 
 	parameter maze_width = 6;
@@ -74,7 +74,7 @@ module maze(
 			begin
 				row = starting_row;
 				col = starting_col; // ma plasez in punctul initial
-				directii = `jos; // presupun ca pot pleca in dreapta
+				directii = `jos; // presupun ca pot pleca in jos
 				maze_we = 1; // stiu sigur ca ma aflu pe o pozitie marcata cu 0
 				
 				//retin pozitia curenta
