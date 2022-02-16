@@ -1,0 +1,89 @@
+# depslib dependency file v1.0
+1610027989 source:d:\anul ii\programare orientata pe obiect\tema 1 refacere\322_vasiloiu tudor-florian\main.cpp
+	<iostream>
+	"Team.hpp"
+	<bits/stdc++.h>
+	<list>
+	<queue>
+	<stack>
+	<sstream>
+	<cctype>
+
+1609963182 source:d:\anul ii\programare orientata pe obiect\tema 1 refacere\322_vasiloiu tudor-florian\player.cpp
+	"Player.hpp"
+
+1610028057 source:d:\anul ii\programare orientata pe obiect\tema 1 refacere\322_vasiloiu tudor-florian\team.cpp
+	"Team.hpp"
+	<string>
+	<string.h>
+	<sstream>
+
+1610028057 d:\anul ii\programare orientata pe obiect\tema 1 refacere\322_vasiloiu tudor-florian\team.hpp
+	"Player.hpp"
+	<vector>
+
+1609963182 d:\anul ii\programare orientata pe obiect\tema 1 refacere\322_vasiloiu tudor-florian\player.hpp
+	<iostream>
+	<fstream>
+	<string>
+	<string.h>
+
+1610132471 source:d:\anul ii\programare orientata pe obiect\tema 1 refacere\lan-party-checker-master\player.cpp
+	"Player.hpp"
+
+1610737944 d:\anul ii\programare orientata pe obiect\tema 1 refacere\lan-party-checker-master\player.hpp
+	<iostream>
+	<fstream>
+	<string>
+	<string.h>
+
+1610806050 source:d:\anul ii\programare orientata pe obiect\tema 1 refacere\lan-party-checker-master\team.cpp
+	"Team.hpp"
+	<string>
+	<string.h>
+	<sstream>
+	<iomanip>
+	<cstring>
+	<cctype>
+
+1610806041 d:\anul ii\programare orientata pe obiect\tema 1 refacere\lan-party-checker-master\team.hpp
+	"Player.hpp"
+	<vector>
+
+1610805639 source:d:\anul ii\programare orientata pe obiect\tema 1 refacere\lan-party-checker-master\main.cpp
+	<iostream>
+	"Team.hpp"
+	<bits/stdc++.h>
+	<list>
+	<queue>
+	<stack>
+	<sstream>
+	<cctype>
+	<string>
+	<string.h>
+	<iomanip>
+	<set>
+	<map>
+
+1610132471 source:d:\anul ii\programare orientata pe obiect\tema 1 refacere\322aa_vasiloiu tudor-florian_tema1refacere\player.cpp
+	"Player.hpp"
+
+1610737944 d:\anul ii\programare orientata pe obiect\tema 1 refacere\322aa_vasiloiu tudor-florian_tema1refacere\player.hpp
+	<iostream>
+	<fstream>
+	<string>
+	<string.h>
+
+1610806050 source:d:\anul ii\programare orientata pe obiect\tema 1 refacere\322aa_vasiloiu tudor-florian_tema1refacere\team.cpp
+	"Team.hpp"
+	<string>
+	<string.h>
+	<sstream>
+	<iomanip>
+	<cstring>
+	<cctype>
+
+1610806041 d:\anul ii\programare orientata pe obiect\tema 1 refacere\322aa_vasiloiu tudor-florian_tema1refacere\team.hpp
+	"Player.hpp"
+	<vector>
+
