@@ -1,3 +1,26 @@
+/*
+Cerinta este urmatoarea:
+Se dă API-ul documentat aici https://socialinsider.docs.apiary.io/ și API-key-ul API_KEY_TEST
+
+Din parametrii: projectname=API_test
+Metodele din API de care vei avea nevoie sunt: socialinsider_api.get_brands și socialinsider_api.get_profile_data
+
+Cerința:
+
+Vei implementa un backend - să spunem  "Brand Compare Backend", care consumă API-ul de mai sus.
+
+O pagină HTML care face requesturi la backendul definit de tine  "Brand Compare Backend", 
+care apoi face requesturile către API-ul nostru, prin care ia date astfel incât să se afișeze un tabel 
+cu toate brandurile din proiect - parametrul date din requestul către get_brand_data trebuie ales dintr-un date-picker. 
+La schimbarea datei ar trebui ca viewul să își facă un refresh cu datele noi.
+
+Tabelul va avea pe fiecare linie un brand și coloanele sunt: Brand Name, Total Profiles(numărul total de profile din brand - key-ul profiles), 
+Total Fans(suma fieldului fans din brand), Total Engagement(suma fieldului engagement pentru toate profilele din brand)
+
+Pentru frontend: Orice javascript framework
+Pentru backend: Orice
+
+*/
 var data;
 
 // connection at port 8080
