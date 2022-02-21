@@ -20,6 +20,9 @@ Total Fans(suma fieldului fans din brand), Total Engagement(suma fieldului engag
 Pentru frontend: Orice javascript framework
 Pentru backend: Orice
 
+
+
+Ca sa functioneze, trebuie rulat in terminal ori "npm install express" ori "npm init" dupa care "node index.js", dar presupun ca nu este ceva nou pentru dvs.
 */
 var data;
 
